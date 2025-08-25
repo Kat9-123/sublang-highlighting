@@ -93,16 +93,10 @@
 		"operators": {
 			"patterns": [{
 				"name": "keyword.operator.subleq",
-				"match": "="
+				"match": "=|::"
 			}]
 		},
 
-		"special": {
-			"patterns": [{
-				"name": "invalid",
-				"match": "::"
-			}]
-		},
 		"imports": {
 			"name": "entity.name.class.subleq",
 			"patterns": [

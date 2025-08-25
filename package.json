@@ -11,15 +11,15 @@
   ],
   "contributes": {
     "languages": [{
-      "id": "subleq",
-      "aliases": ["Subleq", "subleq"],
-      "extensions": [".sbl",".subleq"],
+      "id": "sublang",
+      "aliases": ["Sublang", "sublang"],
+      "extensions": [".sbl",".sublang"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
-      "language": "subleq",
+      "language": "sublang",
       "scopeName": "source.sbl",
-      "path": "./syntaxes/subleq.tmLanguage.json"
+      "path": "./syntaxes/sublang.tmLanguage.json"
     }]
   }
 }
