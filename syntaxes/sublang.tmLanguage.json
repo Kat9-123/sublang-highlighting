@@ -87,13 +87,13 @@
 		"functions": {
 			"patterns": [{
 				"name": "entity.name.function.subleq",
-				"match": "(-.*?>)|(@(.*?)( |\n))"
+				"match": "(-.*?>)|(@(.*?)( |\n))|::"
 			}]
 		},
 		"operators": {
 			"patterns": [{
 				"name": "keyword.operator.subleq",
-				"match": "=|::"
+				"match": "="
 			}]
 		},
 

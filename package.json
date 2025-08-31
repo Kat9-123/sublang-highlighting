@@ -2,6 +2,8 @@
   "name": "sublang",
   "displayName": "Sublang",
   "description": "Syntax highlighting for Sublang",
+  "icon": "./logo.png",
+  "publisher": "Kat9_123",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.91.0"
@@ -14,7 +16,11 @@
       "id": "sublang",
       "aliases": ["Sublang", "sublang"],
       "extensions": [".sbl",".sublang"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+         "light": "./logo.png",
+         "dark": "./logo.png"
+       }
     }],
     "grammars": [{
       "language": "sublang",
